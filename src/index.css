@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+scroll-behavior: smooth;
+}
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply text-black uppercase bg-[#F6C203] rounded-md font-semibold
+  }
+}
